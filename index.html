@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+    <ul>
+        <li id="banner">Growpital</li>
+        <li id="home">Home</li>
+        <li id="abt">About</li>
+        <li id="serv">Service</li>
+        <li id="con">Contact us</li>
+    </ul>
+    <img src="bell.png" id="bell" alt="">
+    <img src="User.png" id="user_icon" alt="">
+    </div>
+    <div id="blur" class="container">
+    <div id="menu_bar">
+        <ul id="menu">
+            <img src="Menu.png" id="menu_icon" alt="">
+            <li id="Menu">Menu</li>
+            <hr>
+            <img src="home.png" id="home_icon" alt="">
+            <img src="port.png" id="port_icon" alt="">
+            <img src="cash.png" id="cash_icon" alt="">
+            <img src="wallet.png" id="wallet_icon" alt="">
+            <img src="head-phone.png" id="sup_icon" alt="">
+            <li id="menu_home">Home</li>
+            <li id="port">Portfolio</li>
+            <li id="invest">Invest</li>
+            <li id="wall">Wallet</li>
+            <li id="sup">Support</li>
+    </ul>
+    </div>
+    <div id="card">
+        <ul>
+            <li id="ur_bal">Your Balance</li>
+            <li id="amt">₹4210.00</li>
+        </ul>
+        <img src="Wallet_india.png" id="c_wall" alt="">
+    </div>
+    <div id="card_btn">
+        <button id="add_btn">Add money</button>
+        <button id="with_btn">Withdraw</button>
+    </div>
+    <div id="cricles">
+        <img src="down_elp.png" id="down_elp" alt="">
+        <img src="up_elp.png" id="up_elp" alt="">
+    </div>
+    <div id="transaction">
+        <span id="view">View All</span>
+        <span id="head_trans">Transaction</span>
+        <img src="Group 106.png" id="sent_1" alt="">
+        <span id="y">Youtube Premium</span>
+        <span id="y_date">9 Aug 2022 8:30 PM</span>
+        <span id="y_amt">-₹ 3,000</span>
+        <img src="Group 107.png" id="rec_1" alt="">
+        <span id="f">Facebook Ads</span>
+        <span id="f_date">9 Aug 2022 9:30 PM</span>
+        <span id="f_amt">+₹ 3,000</span>
+        <img src="Group 108.png" id="fail_1" alt="">
+        <span id="f1">Facebook Ads</span>
+        <span id="f_date1">6 Aug 2022 3:30 PM</span>
+        <span id="f_amt1">₹ 3,000</span>
+        <span id="f_fail1">Failed</span>
+        <img src="Group 107.png" id="rec_2" alt="">
+        <span id="h_head">Hemant kant malviya Sent Money To Bank</span>
+        <span id="h_date">2 Aug 2022 4:30 PM</span>
+        <span id="h_amt">+₹ 3,000</span>
+        <img src="Group 108.png" id="fail_2" alt="">
+        <span id="f2">Facebook Ads</span>
+        <span id="f_date2">6 Aug 2022 3:30 PM</span>
+        <span id="f_amt2">₹ 3,000</span>
+        <span id="f_fail2">Failed</span>
+        <img src="Group 107.png" id="rec_3" alt="">
+        <span id="f3">Facebook Ads</span>
+        <span id="f_date3">9 Aug 2022 9:30 PM</span>
+        <span id="f_amt3">+₹ 3,000</span>
+        <img src="Group 106.png" id="sent_2" alt="">
+        <span id="y2">Youtube Premium</span>
+        <span id="y_date2">9 Aug 2022 8:30 PM</span>
+        <span id="y_amt2">-₹ 3,000</span>
+    </div>
+    <div id="right_rect">
+        <span id="add_money">Add Money</span>
+        <div id="mini_rect"></div>
+        <span id="mini_amt">Enter Amount to add</span>
+        <label id="value_mini">100,000</label>
+        <label id="pop_mini">Popular</label>
+        <button id="btn_1">₹5,000</button>
+        <button id="btn_2">₹10,000</button>
+        <button id="btn_3">₹50,000</button>
+        <button id="btn_4">₹100,000</button>
+        <div id="mini_rect2"></div>
+        <img src="bank.png" id="bank_icon" alt="">
+        <label id="text_1">Send Money To Bank</label>
+        <label id="op_1">RTGS/NEFT/IMPS?</label>
+        <label id="know">Know More</label>
+        <button id="con_btn" onclick="toggle()">Continue</button>
+    </div>
+</div>
+   <div id="new_page">
+    <div id="new_rect">
+        <label id="title_1">Money added to wallet from bank account</label>
+        <img src="Group 107.png" id="new_rec_icon" alt="">
+        <a onclick="toggle()"><img src="Cancel.png" id="new_can" alt=""></a>
+        <span id="new_amt">₹15,000</span>
+        <span id="new_date">12 Aug 2022, 03:55pm </span>
+        <div id="new_mini_rect"></div>
+        <img src="tick.png" id="tick" alt="">
+        <span id="new_trans">Transaction Complete!</span>
+        <span id="title_2">Tap to view this transaction</span>
+        <div id="new_mini_box"></div>
+        <span id="from_2">From</span>
+        <img src="Ellipse 47.png" id="small_cri" alt="">
+        <span id="sm">SM</span>
+        <label id="name_1">Saurabh Sharma</label>
+        <label id="bank_info">SBI, IFSC SBIN016095</label>
+        <label id="bank_info2">A/c No. XXXXXXXXXX5736</label>
+        <span id="new_date2">12 Aug 2022, 03:55pm </span>
+        <span id="to">To</span>
+        <label id="name_2">Saurabh Sharma</label>
+        <img src="Group 203.png" id="green_wallet" alt="">
+        <span id="wal_info">Growpital Wallet</span>
+        <span id="wal_info2"> Ref No. DBTR/222201998174</span>
+        <span id="new_date3">12 Aug 2022, 03:55pm </span>
+        <span id="upi">Payment Method: UPI Transaction ID: DBTR/222201998174</span>
+        <img src="file.png" id="file" alt="">
+        <button id="help">Help</button>
+        <button id="share">Share</button>
+    </div>
+
+   </div>
+   <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
